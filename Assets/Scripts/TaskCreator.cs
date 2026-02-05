@@ -15,7 +15,7 @@ namespace AITransformer
         private WhisperTranscriber _transcriber;
         private OpenAIChatClient _chatClient;
         private List<TaskSystem.BaseTask> _tasks;
-        private String _apikey = "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";
+        private String _apikey = "YOUR_API_KEY_HERE";
         private IEnumerator _enumerator;
         public TilemapPrinter tilemapPrinter;
         public TaskExecutor taskExecutor;
